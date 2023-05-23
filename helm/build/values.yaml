@@ -1,0 +1,15 @@
+app:
+  name: jake-bloom-poi-gateway-app
+  namespace: jake-bloom
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/jake-bloom-gateway
+  org: Summit23Janus2
+  name: jake-bloom-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jake-bloom/poi-gateway-app
+  tag: latest
